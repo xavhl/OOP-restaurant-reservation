@@ -1,0 +1,36 @@
+Please input the file pathname: 1b.txt
+
+> startNewDay|17-Mar-2019
+
+> request|CHAN, Ms|90123456|4|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 1
+
+> startNewDay|19-Mar-2019
+Done.
+
+> request|TANG, Ms|90000004|9|13-Apr-2019
+Done. Ticket code for 13-Apr-2019: 1
+
+> request|TANG, Ms|90000004|9|24-Mar-2019
+Done. Ticket code for 24-Mar-2019: 1
+
+> request|AU-YEUNG, Ms|90445566|3|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 2
+
+> request|POON, Ms|90333444|2|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 3
+
+> startNewDay|20-Mar-2019
+Done.
+
+> request|BLACK, Mr|90010088|9|24-Mar-2019
+Done. Ticket code for 24-Mar-2019: 2
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+AU-YEUNG, Ms 90445566   19-Mar-2019   22-Mar-2019 (Ticket 2)      3       Pending
+BLACK, Mr    90010088   20-Mar-2019   24-Mar-2019 (Ticket 2)      9       Pending
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+POON, Ms     90333444   19-Mar-2019   22-Mar-2019 (Ticket 3)      2       Pending
+TANG, Ms     90000004   19-Mar-2019   24-Mar-2019 (Ticket 1)      9       Pending
+TANG, Ms     90000004   19-Mar-2019   13-Apr-2019 (Ticket 1)      9       Pending

@@ -1,0 +1,7 @@
+startNewDay|17-Mar-2019
+request|CHAN, Ms|90123456|4
+request|CHAN, Ms|90123456|four|22-Mar-2019
+request|CHAN, Ms|90123456|4|16-Mar-2019
+request|CHAN, Ms|90123456|4|17-Mar-2019
+request|CHAN, Ms|90123456|8|17-Mar-2019
+listReservations

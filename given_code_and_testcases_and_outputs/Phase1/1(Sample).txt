@@ -1,0 +1,21 @@
+startNewDay|17-Mar-2019
+request|TANG, Ms|90121212|3|22-Mar-2019
+request|CHAN, Ms|90123456|4|22-Mar-2019
+request|CHAN, Ms|90123456|10|21-Mar-2019
+request|WHITE, Ms|90000001|30|22-Mar-2019
+
+listReservations
+
+cancel|22-Mar-2019|3
+request|BLACK, Mr|93330001|30|22-Mar-2019
+
+assignTable|22-Mar-2019|2|T01|T02
+assignTable|22-Mar-2019|1|F03
+
+listReservations
+listTableAllocations|22-Mar-2019
+listTableAllocations|24-Mar-2019
+
+suggestTable|21-Mar-2019|1
+suggestTable|22-Mar-2019|4
+

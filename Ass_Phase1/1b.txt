@@ -1,0 +1,14 @@
+startNewDay|17-Mar-2019
+request|CHAN, Ms|90123456|4|22-Mar-2019
+
+startNewDay|19-Mar-2019
+request|TANG, Ms|90000004|9|13-Apr-2019
+request|TANG, Ms|90000004|9|24-Mar-2019
+request|AU-YEUNG, Ms|90445566|3|22-Mar-2019
+request|POON, Ms|90333444|2|22-Mar-2019
+
+startNewDay|20-Mar-2019
+
+request|BLACK, Mr|90010088|9|24-Mar-2019
+
+listReservations

@@ -1,0 +1,10 @@
+Please input the file pathname: 1a.txt
+
+> startNewDay|17-Mar-2019
+
+> request|CHAN, Ms|90123456|4|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 1
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending

@@ -1,0 +1,49 @@
+Commands: 
+=========
+request
+cancel
+assignTable
+suggestTable
+listReservations
+listTableAllocations
+startNewDay
+
+
+Heading and listing
+===================
+"%-13s%-11s%-14s%-25s%-11s%s"
+"Guest Name", "Phone", "Request Date", "Dining Date and Ticket", "#Persons", "Status"
+
+"%-13s%-11s%-14s%-25s%4d       %s", guestName, phoneNumber, dateRequest, dateDine+String.format(" (Ticket %d)", ____), totPersons, ____);
+
+
+Exception Handling
+==================
+//"Booking by the same person for the dining date already exists!"
+//"Booking not found!"
+//"Date has already passed!"
+//"Not enough seats for the booking!"
+//"Table %s is already reserved by another booking!",____
+//"Table(s) already assigned for this booking!"
+//"Table code "+____+" not found!"
+//"Insufficient command arguments!"
+//"Wrong number format!"
+
+
+Others
+======
+"Please input the file pathname: "
+"Allocated tables: "
+"Available tables: "
+"Total number of pending requests = %d (Total number of persons = %d)", ___, ____
+" (Ticket %d)\n", ____
+"[None]\n"
+"Table assigned: "
+"Pending"
+"Not enough tables"
+"Suggestion for "+____+" persons: "+____
+"Done."
+"Done. Ticket code for %s: %d\n",____, ____);
+"Nothing to undo."
+"Nothing to redo."
+"Unknown command"

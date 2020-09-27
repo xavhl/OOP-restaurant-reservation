@@ -1,0 +1,20 @@
+startNewDay|17-Mar-2019
+
+request|CHAN, Ms|90123456|5|22-Mar-2019
+assignTable|22-Mar-2019|1|F06|T01
+
+request|CHAN, Ms|90123456|24|24-Mar-2019
+request|TANG, Ms|90121212|9|24-Mar-2019
+assignTable|24-Mar-2019|2|H03|T01
+assignTable|24-Mar-2019|1|H01|H02|F01|F06
+
+listReservations
+listTableAllocations|24-Mar-2019
+
+undo
+listReservations
+listTableAllocations|24-Mar-2019
+
+redo
+listReservations
+listTableAllocations|24-Mar-2019

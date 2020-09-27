@@ -1,0 +1,58 @@
+Please input the file pathname: 1c.txt
+
+> startNewDay|17-Mar-2019
+
+> request|CHAN, Ms|90123456|4|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 1
+
+> startNewDay|19-Mar-2019
+Done.
+
+> undo
+
+> request|TANG, Ms|90000004|9|13-Apr-2019
+Done. Ticket code for 13-Apr-2019: 1
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+TANG, Ms     90000004   17-Mar-2019   13-Apr-2019 (Ticket 1)      9       Pending
+
+> redo
+Nothing to redo.
+
+> undo
+
+> undo
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+
+> redo
+
+> redo
+
+> redo
+Nothing to redo.
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+TANG, Ms     90000004   17-Mar-2019   13-Apr-2019 (Ticket 1)      9       Pending
+
+> undo
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+
+> startNewDay|19-Mar-2019
+Done.
+
+> request|TANG, Ms|90000004|9|28-Mar-2019
+Done. Ticket code for 28-Mar-2019: 1
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+TANG, Ms     90000004   19-Mar-2019   28-Mar-2019 (Ticket 1)      9       Pending

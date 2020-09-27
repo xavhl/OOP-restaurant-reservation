@@ -1,0 +1,72 @@
+startNewDay|17-Mar-2019
+request|CHAN, Ms|90123456|4|22-Mar-2019
+
+startNewDay|19-Mar-2019
+request|TANG, Ms|90121212|9|24-Mar-2019
+request|AU-YEUNG, Ms|90445566|3|22-Mar-2019
+
+listReservations
+listTableAllocations|22-Mar-2019
+
+assignTable|22-Mar-2019|1|F06
+assignTable|22-Mar-2019|2|T01|T02
+assignTable|24-Mar-2019|1|H01|T03
+
+listReservations
+listTableAllocations|22-Mar-2019
+
+request|POON, Ms|90333444|2|22-Mar-2019
+suggestTable|22-Mar-2019|3
+
+request|TANG, Ms|90000008|9|22-Apr-2019
+
+request|TANG, Ms|90000004|9|21-May-2019
+request|TANG, Ms|90000004|9|22-May-2019
+request|TANG, Ms|90000004|9|29-May-2019
+
+request|TANG, Ms|90121212|9|22-Mar-2019
+suggestTable|22-Mar-2019|4
+
+assignTable|22-Mar-2019|3|T03
+assignTable|22-Mar-2019|4|T04|H02
+listReservations
+listTableAllocations|22-Mar-2019
+
+request|WHITE, Ms|90000001|20|22-Mar-2019
+suggestTable|22-Mar-2019|5
+
+assignTable|22-Mar-2019|5|H01|H03|F01
+
+listReservations
+listTableAllocations|22-Mar-2019
+request|BLACK, Mr|90000002|30|22-Mar-2019
+suggestTable|22-Mar-2019|6
+
+cancel|22-Mar-2019|3
+cancel|22-Mar-2019|4
+suggestTable|22-Mar-2019|4
+undo
+undo
+suggestTable|22-Mar-2019|3
+suggestTable|22-Mar-2019|4
+redo
+redo
+suggestTable|22-Mar-2019|3
+suggestTable|22-Mar-2019|4
+undo
+undo
+cancel|22-Mar-2019|3
+suggestTable|22-Mar-2019|3
+suggestTable|22-Mar-2019|4
+suggestTable|22-Mar-2019|6
+cancel|22-Mar-2019|3
+cancel|22-Mar-2019|4
+
+suggestTable|22-Mar-2019|6
+
+
+request|BLUE, Mr|90000003|22|22-Mar-2019
+suggestTable|22-Mar-2019|7
+
+listReservations
+listTableAllocations|22-Mar-2019

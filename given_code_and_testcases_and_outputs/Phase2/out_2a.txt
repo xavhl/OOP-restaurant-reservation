@@ -1,0 +1,38 @@
+Please input the file pathname: 2a.txt
+
+> startNewDay|17-Mar-2019
+
+> request|CHAN, Ms|90123456|4|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 1
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Pending
+
+> assignTable|22-Mar-2019|1|F06
+Done.
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Table assigned: F06 
+
+> request|CHAN, Ms|90123456|24|24-Mar-2019
+Done. Ticket code for 24-Mar-2019: 1
+
+> request|TANG, Ms|90121212|9|24-Mar-2019
+Done. Ticket code for 24-Mar-2019: 2
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Table assigned: F06 
+CHAN, Ms     90123456   17-Mar-2019   24-Mar-2019 (Ticket 1)     24       Pending
+TANG, Ms     90121212   17-Mar-2019   24-Mar-2019 (Ticket 2)      9       Pending
+
+> assignTable|24-Mar-2019|2|H03|T01
+Done.
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      4       Table assigned: F06 
+CHAN, Ms     90123456   17-Mar-2019   24-Mar-2019 (Ticket 1)     24       Pending
+TANG, Ms     90121212   17-Mar-2019   24-Mar-2019 (Ticket 2)      9       Table assigned: H03 T01 

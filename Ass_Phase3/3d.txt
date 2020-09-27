@@ -1,0 +1,50 @@
+startNewDay|17-Mar-2019
+
+request|CHAN, Ms|90123456|2|20-Mar-2019
+request|TANG, Ms|90121212|4|20-Mar-2019
+request|BLACK, Mr|93330000|8|20-Mar-2019
+
+request|CHAN, Ms|90123456|10|21-Mar-2019
+request|TANG, Ms|90121212|20|21-Mar-2019
+request|BLACK, Mr|93330000|30|21-Mar-2019
+
+request|CHAN, Ms|90123456|1|22-Mar-2019
+request|TANG, Ms|90121212|3|22-Mar-2019
+request|BLACK, Mr|93330000|7|22-Mar-2019
+
+request|CHAN, Ms|90123456|11|23-Mar-2019
+request|TANG, Ms|90121212|15|23-Mar-2019
+request|BLACK, Mr|93330000|23|23-Mar-2019
+
+suggestTable|20-Mar-2019|1
+suggestTable|20-Mar-2019|2
+suggestTable|20-Mar-2019|3
+suggestTable|21-Mar-2019|1
+suggestTable|21-Mar-2019|2
+suggestTable|21-Mar-2019|3
+suggestTable|22-Mar-2019|1
+suggestTable|22-Mar-2019|2
+suggestTable|22-Mar-2019|3
+suggestTable|23-Mar-2019|1
+suggestTable|23-Mar-2019|2
+suggestTable|23-Mar-2019|3
+
+assignTable|20-Mar-2019|2|H01
+assignTable|21-Mar-2019|1|H01|T01
+
+listReservations
+listTableAllocations|20-Mar-2019
+listTableAllocations|21-Mar-2019
+suggestTable|20-Mar-2019|3
+suggestTable|21-Mar-2019|3
+
+assignTable|21-Mar-2019|2|H02|H03|F01
+listReservations
+listTableAllocations|21-Mar-2019
+suggestTable|21-Mar-2019|3
+
+suggestTable|21-Mar-2019
+suggestTable|21-Mar-2019|abc
+suggestTable|24-Mar-2019|1
+suggestTable|21-Mar-2019|2
+suggestTable|23-Mar-2019|2

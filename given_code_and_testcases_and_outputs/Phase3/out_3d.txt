@@ -1,0 +1,170 @@
+Please input the file pathname: 3d.txt
+
+> startNewDay|17-Mar-2019
+
+> request|CHAN, Ms|90123456|2|20-Mar-2019
+Done. Ticket code for 20-Mar-2019: 1
+
+> request|TANG, Ms|90121212|4|20-Mar-2019
+Done. Ticket code for 20-Mar-2019: 2
+
+> request|BLACK, Mr|93330000|8|20-Mar-2019
+Done. Ticket code for 20-Mar-2019: 3
+
+> request|CHAN, Ms|90123456|10|21-Mar-2019
+Done. Ticket code for 21-Mar-2019: 1
+
+> request|TANG, Ms|90121212|20|21-Mar-2019
+Done. Ticket code for 21-Mar-2019: 2
+
+> request|BLACK, Mr|93330000|30|21-Mar-2019
+Done. Ticket code for 21-Mar-2019: 3
+
+> request|CHAN, Ms|90123456|1|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 1
+
+> request|TANG, Ms|90121212|3|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 2
+
+> request|BLACK, Mr|93330000|7|22-Mar-2019
+Done. Ticket code for 22-Mar-2019: 3
+
+> request|CHAN, Ms|90123456|11|23-Mar-2019
+Done. Ticket code for 23-Mar-2019: 1
+
+> request|TANG, Ms|90121212|15|23-Mar-2019
+Done. Ticket code for 23-Mar-2019: 2
+
+> request|BLACK, Mr|93330000|23|23-Mar-2019
+Done. Ticket code for 23-Mar-2019: 3
+
+> suggestTable|20-Mar-2019|1
+Suggestion for 2 persons: T01 
+
+> suggestTable|20-Mar-2019|2
+Suggestion for 4 persons: F01 
+
+> suggestTable|20-Mar-2019|3
+Suggestion for 8 persons: H01 
+
+> suggestTable|21-Mar-2019|1
+Suggestion for 10 persons: H01 T01 
+
+> suggestTable|21-Mar-2019|2
+Suggestion for 20 persons: H01 H02 F01 
+
+> suggestTable|21-Mar-2019|3
+Suggestion for 30 persons: H01 H02 H03 F01 T01 
+
+> suggestTable|22-Mar-2019|1
+Suggestion for 1 persons: T01 
+
+> suggestTable|22-Mar-2019|2
+Suggestion for 3 persons: F01 
+
+> suggestTable|22-Mar-2019|3
+Suggestion for 7 persons: H01 
+
+> suggestTable|23-Mar-2019|1
+Suggestion for 11 persons: H01 F01 
+
+> suggestTable|23-Mar-2019|2
+Suggestion for 15 persons: H01 H02 
+
+> suggestTable|23-Mar-2019|3
+Suggestion for 23 persons: H01 H02 H03 
+
+> assignTable|20-Mar-2019|2|H01
+Done.
+
+> assignTable|21-Mar-2019|1|H01|T01
+Done.
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+BLACK, Mr    93330000   17-Mar-2019   20-Mar-2019 (Ticket 3)      8       Pending
+BLACK, Mr    93330000   17-Mar-2019   21-Mar-2019 (Ticket 3)     30       Pending
+BLACK, Mr    93330000   17-Mar-2019   22-Mar-2019 (Ticket 3)      7       Pending
+BLACK, Mr    93330000   17-Mar-2019   23-Mar-2019 (Ticket 3)     23       Pending
+CHAN, Ms     90123456   17-Mar-2019   20-Mar-2019 (Ticket 1)      2       Pending
+CHAN, Ms     90123456   17-Mar-2019   21-Mar-2019 (Ticket 1)     10       Table assigned: H01 T01 
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      1       Pending
+CHAN, Ms     90123456   17-Mar-2019   23-Mar-2019 (Ticket 1)     11       Pending
+TANG, Ms     90121212   17-Mar-2019   20-Mar-2019 (Ticket 2)      4       Table assigned: H01 
+TANG, Ms     90121212   17-Mar-2019   21-Mar-2019 (Ticket 2)     20       Pending
+TANG, Ms     90121212   17-Mar-2019   22-Mar-2019 (Ticket 2)      3       Pending
+TANG, Ms     90121212   17-Mar-2019   23-Mar-2019 (Ticket 2)     15       Pending
+
+> listTableAllocations|20-Mar-2019
+Allocated tables: 
+H01 (Ticket 2)
+
+Available tables: 
+T01 T02 T03 T04 T05 T06 T07 T08 T09 T10 F01 F02 F03 F04 F05 F06 H02 H03 
+
+Total number of pending requests = 2 (Total number of persons = 10)
+
+> listTableAllocations|21-Mar-2019
+Allocated tables: 
+T01 (Ticket 1)
+H01 (Ticket 1)
+
+Available tables: 
+T02 T03 T04 T05 T06 T07 T08 T09 T10 F01 F02 F03 F04 F05 F06 H02 H03 
+
+Total number of pending requests = 2 (Total number of persons = 50)
+
+> suggestTable|20-Mar-2019|3
+Suggestion for 8 persons: H02 
+
+> suggestTable|21-Mar-2019|3
+Suggestion for 30 persons: H02 H03 F01 F02 F03 T02 
+
+> assignTable|21-Mar-2019|2|H02|H03|F01
+Done.
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+BLACK, Mr    93330000   17-Mar-2019   20-Mar-2019 (Ticket 3)      8       Pending
+BLACK, Mr    93330000   17-Mar-2019   21-Mar-2019 (Ticket 3)     30       Pending
+BLACK, Mr    93330000   17-Mar-2019   22-Mar-2019 (Ticket 3)      7       Pending
+BLACK, Mr    93330000   17-Mar-2019   23-Mar-2019 (Ticket 3)     23       Pending
+CHAN, Ms     90123456   17-Mar-2019   20-Mar-2019 (Ticket 1)      2       Pending
+CHAN, Ms     90123456   17-Mar-2019   21-Mar-2019 (Ticket 1)     10       Table assigned: H01 T01 
+CHAN, Ms     90123456   17-Mar-2019   22-Mar-2019 (Ticket 1)      1       Pending
+CHAN, Ms     90123456   17-Mar-2019   23-Mar-2019 (Ticket 1)     11       Pending
+TANG, Ms     90121212   17-Mar-2019   20-Mar-2019 (Ticket 2)      4       Table assigned: H01 
+TANG, Ms     90121212   17-Mar-2019   21-Mar-2019 (Ticket 2)     20       Table assigned: H02 H03 F01 
+TANG, Ms     90121212   17-Mar-2019   22-Mar-2019 (Ticket 2)      3       Pending
+TANG, Ms     90121212   17-Mar-2019   23-Mar-2019 (Ticket 2)     15       Pending
+
+> listTableAllocations|21-Mar-2019
+Allocated tables: 
+T01 (Ticket 1)
+F01 (Ticket 2)
+H01 (Ticket 1)
+H02 (Ticket 2)
+H03 (Ticket 2)
+
+Available tables: 
+T02 T03 T04 T05 T06 T07 T08 T09 T10 F02 F03 F04 F05 F06 
+
+Total number of pending requests = 1 (Total number of persons = 30)
+
+> suggestTable|21-Mar-2019|3
+Suggestion for 30 persons: F02 F03 F04 F05 F06 T02 T03 T04 T05 T06 
+
+> suggestTable|21-Mar-2019
+Insufficient command arguments!
+
+> suggestTable|21-Mar-2019|abc
+Wrong number format!
+
+> suggestTable|24-Mar-2019|1
+Booking not found!
+
+> suggestTable|21-Mar-2019|2
+Table(s) already assigned for this booking!
+
+> suggestTable|23-Mar-2019|2
+Suggestion for 15 persons: H01 H02 
